@@ -1,3 +1,60 @@
-h1{
-    color: rebeccapurple;
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;;
+}
+.hero{
+    background-image: url('../images/gabriel-porras-nUCt1PjRNHE-unsplash\ \(1\).jpg');
+    background-size: cover;
+    background-image: bottom center;
+    height: 200vh;
+}
+.hero h1{
+    color:rgb(251, 251, 252);
+    font-family: cursive;
+    letter-spacing: 20px;
+    font-size: 300px;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: 800;
+}
+.article{
+    width: 80%;
+    border-width: 15px;
+    border-color: blueviolet;
+    border-style: groove;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin: 60px auto;
+    border-width: 15px;
+    background-color: aqua;
+    padding: 60px;
+}
+.article h2{
+    text-align: center;
+    font-size: 48px;
+    border-bottom: 2px;
+    border-width: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgb(69, 44, 211);
+    border-style: groove;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+}
+.article p{
+    font-size: 30px;
+    line-height: 2em;
+}
+#Cow-type{
+    font-size:50px;
+    text-align: center;
+    image-resolution: 500px;
+    border-style: groove;
 }
